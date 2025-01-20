@@ -1,0 +1,52 @@
+{
+  "expo": {
+    "name": "Mystic Japan",
+    "slug": "mystic-japan-fortune-teller",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "splash": {
+      "image": "./assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#D5517B"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "bundleIdentifier": "com.yourcompany.mysticjapan",
+      "buildNumber": "1.0.0",
+      "infoPlist": {
+        "NSMicrophoneUsageDescription": "This app needs access to microphone for sound effects.",
+        "NSPhotoLibraryUsageDescription": "This app needs access to photo library for sharing fortunes.",
+        "NSPhotoLibraryAddUsageDescription": "This app needs access to photo library for saving fortunes."
+      },
+      "icon": "./assets/images/ios/icon-1024@1x.png"
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#D5517B"
+      },
+      "package": "com.yourcompany.mysticjapan",
+      "versionCode": 1,
+      "permissions": [
+        "VIBRATE",
+        "CAMERA",
+        "WRITE_EXTERNAL_STORAGE"
+      ]
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      "expo-localization",
+      "expo-av",
+      "expo-shake"
+    ]
+  }
+} 
